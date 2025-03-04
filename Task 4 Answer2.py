@@ -10,7 +10,7 @@ for num in range(5, 31, 5):
 # Task 3: Password Generator
 import random
 
-def generate_password_easy(letters_count, symbols_count, numbers_count):
+def generate_password_easy(letters, symbols, numbers):
     letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
     numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
     symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
